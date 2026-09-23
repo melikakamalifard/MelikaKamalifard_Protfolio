@@ -258,3 +258,20 @@ const projects = [
     ]
   }
 ];
+
+const companies = [
+ {id:'company-snapp',title:'Snapp Barcode',date:'2026',role:'Social Media & Content Specialist',image:'rev-company-snapp.webp',route:'project-1',description:'B2B SaaS content, customer insight and lead generation.'},
+ {id:'company-trend',title:'Trend I Marketing Solutions',date:'2025',role:'Social Media Marketing Specialist',image:'rev-company-trend.webp',children:['project-2','project-3'],description:'Campaign strategy, gamification and brand communication.'},
+ {id:'company-rozet',title:'Rozet Group',date:'2024–2025',role:'Digital Marketing Specialist',image:'home-rozet',children:['project-4','project-5'],description:'Corporate communication and retail storytelling.'},
+ {id:'company-kanirush',title:'Kanirush',date:'2023',role:'Social Media Marketing Specialist',image:'rev-company-kanirush.webp',route:'project-6',description:'Fashion content, brand identity and audience discovery.'},
+ {id:'company-alaedin',title:'Alaedin Travel Agency',date:'2022',role:'Social Media Marketing Specialist',image:'rev-company-alaedin.webp',route:'project-7',description:'Travel content across search, social and the website.'},
+ {id:'company-firoozeh',title:'Firoozeh Media Group',date:'Selected experience',role:'Creative social campaigns',image:'rev-company-firoozeh.webp',route:'project-8',description:'TV storytelling, campaign creative and community engagement.'},
+ {id:'company-iriano',title:'Iriano',date:'2021',role:'Social Media Marketing Specialist',image:'rev-company-iriano.webp',route:'project-9',description:'Fashion storytelling, e-commerce and brand partnerships.'}
+];
+companies[2].image='rev-home-rozet.webp';
+const recommendations = [
+ {name:'Narges Forghaninia',role:'Account Executive at Trend I Marketing Solutions',x:22,quote:'I’ve had the chance to work closely with Melika in her role as a Social Media Specialist, and I truly value her creativity and professionalism. She consistently brings smart ideas to the table and knows how to turn them into engaging content that aligns perfectly with campaign objectives. Collaborating with her is always smooth and enjoyable—she’s organized, proactive, and a true team player. I’m glad we’re working together, and I’m confident her impact will continue to grow across every project. Any team will definitely benefit from her expertise and positive spirit.'},
+ {name:'Amir Erfan',role:'Digital Marketing Manager at Trend I Marketing Solutions',x:355,quote:'As a manager, I’d advise you to continue leveraging entertainment in your campaigns, especially during challenging times. You successfully engaged Gen Z by aligning the campaign with Sunnyness’ brand promise, and your crisis management was strong. Going forward, add more personalized elements to enhance user interaction, and keep refining your flexible strategies to adapt to unforeseen disruptions while staying true to the brand’s voice.'},
+ {name:'Amir Mohammadpour',role:'Group Vice President Operations at Rozet Group',x:689,quote:'Her ability to build content systems across different industries is rare. Melika brings clarity, creativity, and consistency to every channel she manages.'},
+ {name:'Reyhaneh Azizipanah',role:'Head of Marketing at Kanirush',x:1023,quote:'I highly recommend Melika for any role requiring expertise in social media strategy and content creation. From planning to execution, she blends high-level strategic thinking with precise content production, developing campaigns that align with business goals and engage audiences effectively. Her ability to craft visually compelling content while optimizing for performance ensures that each campaign drives measurable results. Melika combines creativity with a data-driven approach, making her an invaluable asset to any team.'}
+];
